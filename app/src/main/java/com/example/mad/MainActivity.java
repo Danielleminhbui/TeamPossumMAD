@@ -9,11 +9,27 @@ import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
+    RecyclerView mRecyclerView;
+    eventCardAdapter adapter;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+        List<eventData> list = new ArrayList<>();
+
+        mRecyclerView = mRecyclerView.findViewById(R.id.scheduled_event_viewer);
+        mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
+        adapter = new eventCardAdapter(list, this);
+        mRecyclerView.setAdapter(adapter);
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         BottomNavigationView navView = findViewById(R.id.nav_view);
