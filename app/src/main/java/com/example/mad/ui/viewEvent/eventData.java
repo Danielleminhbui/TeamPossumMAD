@@ -1,6 +1,8 @@
 package com.example.mad;
 
 public class eventData {
+
+
     String Title, Location, Time, Date;
     int Type;
 
