@@ -1,12 +1,13 @@
-package com.example.mad;
+package com.example.mad.ui.viewEvent;
 
-import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.example.mad.R;
 
 import java.util.Collections;
 import java.util.List;

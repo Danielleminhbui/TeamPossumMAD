@@ -1,10 +1,12 @@
-package com.example.mad;
+package com.example.mad.ui.viewEvent;
 
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.view.View;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.mad.R;
 
 public class eventViewHolder extends RecyclerView.ViewHolder {
 

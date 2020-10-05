@@ -1,7 +1,9 @@
-package com.example.mad;
+package com.example.mad.ui.viewEvent;
 
 import android.os.Bundle;
 
+import com.example.mad.R;
+import com.example.mad.ui.viewEvent.eventCardAdapter;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import androidx.appcompat.app.AppCompatActivity;

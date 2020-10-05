@@ -1,4 +1,4 @@
-package com.example.mad.ui;
+package com.example.mad.ui.viewEvent;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -11,8 +11,6 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.mad.R;
-import com.example.mad.eventCardAdapter;
-import com.example.mad.eventData;
 
 import java.util.ArrayList;
 import java.util.List;
