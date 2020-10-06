@@ -1,4 +1,4 @@
-package com.example.mad;
+package com.example.mad.ui.viewEvent;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
