@@ -1,4 +1,4 @@
-package com.example.mad.ui.viewEvent;
+package com.example.mad;
 
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -6,8 +6,6 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
-import com.example.mad.R;
 
 import java.util.Collections;
 import java.util.List;

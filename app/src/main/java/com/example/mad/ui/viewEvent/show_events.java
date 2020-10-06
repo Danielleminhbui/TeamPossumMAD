@@ -1,9 +1,7 @@
-package com.example.mad.ui.viewEvent;
+package com.example.mad;
 
 import android.os.Bundle;
 
-import com.example.mad.R;
-import com.example.mad.ui.viewEvent.eventCardAdapter;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -27,10 +25,10 @@ public class show_events extends AppCompatActivity {
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.navigation_home, R.id.navigation_history, R.id.navigation_settings)
+                R.id.navigation_upcoming, R.id.navigation_past, R.id.navigation_settings)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
-        NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
+        NavigationUI.setupActionBarWithNavController(show_events.this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(navView, navController);
     }
 

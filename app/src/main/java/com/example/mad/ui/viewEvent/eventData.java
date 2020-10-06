@@ -1,4 +1,4 @@
-package com.example.mad.ui.viewEvent;
+package com.example.mad;
 
 public class eventData {
 
