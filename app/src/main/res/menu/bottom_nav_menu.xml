@@ -2,18 +2,18 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/navigation_home"
-        android:icon="@drawable/ic_home_black_24dp"
-        android:title="@string/title_home" />
+        android:id="@+id/navigation_upcoming"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="@string/scheduled_events" />
 
     <item
-        android:id="@+id/navigation_history"
+        android:id="@+id/navigation_past"
         android:icon="@drawable/ic_baseline_history_24"
-        android:title="@string/title_history" />
+        android:title="@string/past_events" />
 
     <item
-        android:id="@+id/navigation_settings"
-        android:icon="@drawable/ic_baseline_settings_24"
-        android:title="@string/title_settings" />
+        android:id="@+id/navigation_return"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="@string/back" />
 
 </menu>

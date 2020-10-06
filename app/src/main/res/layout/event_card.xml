@@ -1,6 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.google.android.material.card.MaterialCardView
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dp">
 
-</com.google.android.material.card.MaterialCardView>
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/typeImage"
+        android:layout_width="45dp"
+        android:layout_height="match_parent"
+        android:src="@mipmap/ic_launcher_round"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:orientation="vertical"
+    >
+
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/eventTitlecard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_toRightOf="@+id/typeImage"
+                android:text="Event Title"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/eventLocationcard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:text="Event Time"
+
+
+                android:textColor="#000"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/eventTimecard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@+id/typeImage"
+            android:layout_below="@+id/eventLocation"
+            android:text="@string/scheduled_events"/>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

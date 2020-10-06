@@ -1,6 +1,84 @@
 <resources>
-    <string name="app_name">MAD</string>
-    <string name="title_home">Home</string>
-    <string name="title_history">Past events</string>
-    <string name="title_settings">Settings</string>
+    <string name="app_name">TeamPossum Project</string>
+    <string name="scheduled_events">Upcoming</string>
+    <string name="past_events">Past events</string>
+    <string name="settings">Settings</string>
+    <string name="back">Back</string>
+    <string name="Homepage">Dashboard</string>
+    <string name="Welcome">Welcome</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="set_up_heading">Set Up</string>
+    <string name="username_hint">Enter email</string>
+    <string name="location_hint">Enter location</string>
+    <string name="password_hint">Enter password</string>
+    <string name="confirm_setup">Confirm</string>
+    <string name="error_email_format">Incorrect e-mail format</string>
+    <string name="error_password_length">Password not long enough</string>
+    <string name="api_key">AIzaSyBykokT2x0_4kO98EhQU1mWyrBb1PNlOTs</string>
+    <string name="map_key">AIzaSyBxPvIzO93cTPPYmysSlA4qSAvLhngu0u8</string>
+
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+
+    <!-- Change the following strings as required -->
+    <string name="back4app_app_id">PASTE_YOUR_APPLICATION_ID_HERE</string>
+    <string name="back4app_client_key">PASTE_YOUR_CLIENT_KEY_HERE</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+
+    <string name="login_heading">Login</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="confirm_login">"Login"</string>
+    <string name="sign_up">"Sign up"</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="event_title">Event Title</string>
+    <string name="event_type">Event Type</string>
+    <string name="event_location">Location</string>
+    <string name="event_time">Date and Time</string>
+    <string name="event_confirm">Confirm event</string>
+    <string name="event_heading">Add new event</string>
+
+    <string-array name="event_type">
+        <item>Work</item>
+        <item>Grocery</item>
+        <item>Leisure</item>
+        <item>Social</item>
+        <item>Others</item>
+    </string-array>
+
+    <string name="confirm">Finish setting up</string>
+    <string name="enter_name">Name</string>
+    <string name="enter_location">Location</string>
+    <string name="name_error">Please enter a valid name</string>
+    <string name="location_error">Please enter your location</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="title_activity_view_events">MainActivity</string>
+
+
+    <string name="setting_description">Set your personal preference</string>
+    <string name="view_events_description">Check your upcoming and past events</string>
+    <string name="add_events_description">Add a new event</string>
+    <string name="map_description">Look at your location and 5km radius</string>
+
 </resources>

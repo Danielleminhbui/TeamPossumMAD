@@ -1,17 +1,23 @@
-package com.example.mad;
+package com.example.mad.ui.viewEvent;
 
 public class eventData {
 
 
-    String Title, Location, Time, Date;
-    int Type;
+    private String Title, Type, Location, Time, user;
 
-    public eventData(String Title, int Type, String Date)
+    public eventData(String Location, String Time, String Title, String Type, String user)
     {
         this.Title = Title;
         this.Type = Type;
-        this.Date = Date;
+        this.Location = Location;
+        this.Time = Time;
+        this.user = user;
+
     }
+
+    public eventData(){
+    }
+
 
     public String getTitle() {
         return Title;
@@ -21,11 +27,11 @@ public class eventData {
         Title = title;
     }
 
-    public int getType() {
+    public String getType() {
         return Type;
     }
 
-    public void setType(int type) {
+    public void setType(String type) {
         Type = type;
     }
 
@@ -45,11 +51,7 @@ public class eventData {
         Time = time;
     }
 
-    public String getDate() {
-        return Date;
-    }
 
-    public void setDate(String date) {
-        Date = date;
-    }
+
+
 }
