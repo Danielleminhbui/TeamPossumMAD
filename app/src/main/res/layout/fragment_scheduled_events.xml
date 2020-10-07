@@ -6,16 +6,40 @@
     android:layout_height="match_parent"
     android:orientation="horizontal"
     tools:context=".ui.viewEvent.scheduled_eventsFragment"
-    android:padding="10dp"
     android:background="#fcfcfc"
     android:gravity="center">
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        android:gravity="top"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/scheduled_events_heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Scheduled events"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
+    </androidx.appcompat.widget.Toolbar>
+    </RelativeLayout>
 
     <!-- A RecyclerView with some commonly used attributes -->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:padding="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -25,8 +49,7 @@
             android:id="@+id/firestoreList"
             android:layout_width="409dp"
             android:layout_height="657dp"
-            tools:layout_editor_absoluteX="1dp"
-            tools:layout_editor_absoluteY="1dp" />
+            tools:layout_editor_absoluteX="1dp" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 

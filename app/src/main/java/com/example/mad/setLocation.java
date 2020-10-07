@@ -172,7 +172,7 @@ public class setLocation extends AppCompatActivity {
                                 lat = location.getLatitude();
                                 lon = location.getLongitude();
                                 address = geo.getFromLocation(lat,lon, 1);
-                                locationInput.setText(address.get(0).getAddressLine(0).toString());
+                                locationInput.setText(address.get(0).getAddressLine(0));
                             } catch (IOException e) {
                                 e.printStackTrace();
                             }

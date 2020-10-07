@@ -99,8 +99,8 @@ public class setup extends AppCompatActivity {
                             } else {
                                 // If sign in fails, display a message to the user.
                                 Log.w(TAG, "createUserWithEmail:failure", task.getException());
-                                emailInput.setError(getResources().getString(R.string.error_email_format));
-                                passwordInput.setError(getResources().getString(R.string.error_password_length));
+                                emailInput.setError(getResources().getString(R.string.auth_error));
+                                passwordInput.setError(getResources().getString(R.string.auth_error));
 
                             }
                         }

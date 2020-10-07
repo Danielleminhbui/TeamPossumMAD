@@ -7,6 +7,7 @@
     <string name="Homepage">Dashboard</string>
     <string name="Welcome">Welcome</string>
 
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="set_up_heading">Set Up</string>
     <string name="username_hint">Enter email</string>
@@ -17,6 +18,8 @@
     <string name="error_password_length">Password not long enough</string>
     <string name="api_key">AIzaSyBykokT2x0_4kO98EhQU1mWyrBb1PNlOTs</string>
     <string name="map_key">AIzaSyBxPvIzO93cTPPYmysSlA4qSAvLhngu0u8</string>
+
+    <string name="auth_error">Unable to authorize account [google error]</string>
 
     <string name="back4app_server_url">https://parseapi.back4app.com/</string>
 

@@ -55,9 +55,17 @@ public class homepage extends AppCompatActivity {
             public void onClick(View v) {
                 Intent mapsIntent = new Intent(getApplicationContext(), show_events.class);
                 startActivity(mapsIntent);
-            }
-                });
-        }
+            }});
+
+        CardView settingBtn = findViewById(R.id.settingBtn);
+        settingBtn.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent settingIntent = new Intent(getApplicationContext(), settings.class);
+                startActivity(settingIntent);
+            }});
+
+
+    }
 
     private void getName(){
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();

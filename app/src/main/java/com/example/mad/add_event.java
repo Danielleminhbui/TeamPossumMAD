@@ -18,7 +18,9 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.Spinner;
 import android.widget.TimePicker;
+import android.widget.Toast;
 
+import com.example.mad.ui.viewEvent.show_events;
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.common.api.Status;
@@ -117,7 +119,7 @@ public class add_event extends AppCompatActivity {
                             public void onSuccess(DocumentReference documentReference) {
                                 Log.d(TAG, "Event added " + documentReference.getId());
                                 //Will eventually link to ViewEvent.class;
-                                Intent intent = new Intent(add_event.this, homepage.class);
+                                Intent intent = new Intent(add_event.this, show_events.class);
                                 startActivity(intent);
                             }
                         })
@@ -125,6 +127,7 @@ public class add_event extends AppCompatActivity {
                             @Override
                             public void onFailure(@NonNull Exception e) {
                                 Log.w(TAG, "Error", e);
+                                Toast.makeText(getApplicationContext(),"Unable to save data",Toast.LENGTH_SHORT).show();
                             }
                         });
             }

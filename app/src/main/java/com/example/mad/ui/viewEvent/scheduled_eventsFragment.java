@@ -76,6 +76,7 @@ public class scheduled_eventsFragment extends Fragment {
                // viewHolder.event_type.
             }
         };
+
         firestoreList.setHasFixedSize(true);
         firestoreList.setLayoutManager(new LinearLayoutManager(getContext()));
         firestoreList.setAdapter(adapter);
@@ -109,6 +110,7 @@ public class scheduled_eventsFragment extends Fragment {
         super.onStart();
         adapter.startListening();
     }
+
 
     /*
     private void showData()
