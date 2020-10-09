@@ -16,8 +16,7 @@
     <string name="confirm_setup">Confirm</string>
     <string name="error_email_format">Incorrect e-mail format</string>
     <string name="error_password_length">Password not long enough</string>
-    <string name="api_key">AIzaSyBykokT2x0_4kO98EhQU1mWyrBb1PNlOTs</string>
-    <string name="map_key">AIzaSyBxPvIzO93cTPPYmysSlA4qSAvLhngu0u8</string>
+
 
     <string name="auth_error">Unable to authorize account [google error]</string>
 
